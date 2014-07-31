@@ -25,11 +25,11 @@ console.log(foo);
 now, let's open a new thread and execute function sum() in this thread.
 >```javascript
 >Thread.exec(
-	sum,                //function to execute in a thread
-    [2,3],              //arguments for the function
-	function(data){     //callback function to process result
+	sum,                // function to execute in a thread
+    [2,3],              // arguments for the function
+	function(data){     // callback function to process result
 		var foo = data;
-		console.log(foo);
+		console.log(foo);  // -> 5
 	}
 );
 >
