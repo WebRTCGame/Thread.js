@@ -9,30 +9,30 @@ is a javascript plugin, which allows you to execute any function of a your code 
 
 **Function with dependencies**: Thread accepts a list of file names as an optional argument and imports these files in the thread before the function is calling
 
-Here is a basic example:
+In main page you execute it this way:
+
 >```javascript
 > function sum(num1, num2) {
 >     return num1 + num2;
 >}
-
-in main page you execute it this way: 
-
->```javascript
+>
 >var foo = sum(2,3);
-console.log(foo);
->
+>console.log(foo);
 
-now, let's open a new thread and execute function sum() in this thread.
+Now, let's open a new thread and execute function sum() in this thread.
 >```javascript
->Thread.exec(
-	sum,                //function to execute in a thread
-    [2,3],              //arguments for the function
-	function(data){     //callback function to process result
-		var foo = data;
-		console.log(foo);
-	}
-);
+> function sum(num1, num2) {
+>     return num1 + num2;
+>}
 >
+>Thread.exec(
+>	sum,                // function to execute in a thread
+>   [2,3],              // arguments for the function
+>	function(data){     // callback function to process result
+>		var foo = data;
+>		console.log(foo);
+>	}
+>);
 
 See live examples at [http://eslinstructor.net/vkthread](http://eslinstructor.net/vkthread)
 
