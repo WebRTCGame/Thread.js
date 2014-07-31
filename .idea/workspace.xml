@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f53c4d4a-b9c2-4ea8-bd41-ff8ca33b1227" name="Default" comment="Edited Thread Object, removed all dependencies">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/thread.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deprecated/worker.js" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\examples\ajax.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\examples\geturl.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\examples\helloajax.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\html\ajax.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\html\anonymous.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\html\context.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\html\context_depend.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\html\dependency.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\html\doc.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\html\function.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\html\lambda.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\html\multicore_demo.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\html\overview.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\html\run.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\html\run_all.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\jquery-1.9.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\jquery-ui-1.10.3.custom\css\ui-lightness\images\animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\jquery-ui-1.10.3.custom\css\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\jquery-ui-1.10.3.custom\css\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\jquery-ui-1.10.3.custom\css\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\jquery-ui-1.10.3.custom\css\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\jquery-ui-1.10.3.custom\css\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\jquery-ui-1.10.3.custom\css\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\jquery-ui-1.10.3.custom\css\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\jquery-ui-1.10.3.custom\css\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\jquery-ui-1.10.3.custom\css\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\jquery-ui-1.10.3.custom\css\ui-lightness\images\ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\jquery-ui-1.10.3.custom\css\ui-lightness\images\ui-icons_228ef1_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\jquery-ui-1.10.3.custom\css\ui-lightness\images\ui-icons_ef8c08_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\jquery-ui-1.10.3.custom\css\ui-lightness\images\ui-icons_ffd27a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\jquery-ui-1.10.3.custom\css\ui-lightness\images\ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\jquery-ui-1.10.3.custom\css\ui-lightness\jquery-ui-1.10.3.custom.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\jquery-ui-1.10.3.custom\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\jquery-ui-1.10.3.custom\js\jquery-ui-1.10.3.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\rainbow\language\css.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\rainbow\language\generic.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\rainbow\language\html.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\rainbow\language\javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\rainbow\rainbow.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\rainbow\rainbow.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\rainbow\themes\all-hallows-eve.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\rainbow\themes\blackboard.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\rainbow\themes\dreamweaver.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\rainbow\themes\espresso-libre.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\rainbow\themes\github.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\rainbow\themes\obsidian.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\rainbow\themes\pastie.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\rainbow\themes\solarized-dark.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\rainbow\themes\solarized-light.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\rainbow\themes\sunburst.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\rainbow\themes\tomorrow-night.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\rainbow\themes\tricolore.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\rainbow\themes\twilight.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\rainbow\themes\zenburnesque.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\js\underscore-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\main.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\vkthread\vkthread.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\_github\vkthread\vkthread\worker.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
+    <ignored path="vkthread.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="vkthread" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="43" selection-start="583" selection-end="583" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="731">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="-1.36" vertical-offset="0" max-vertical-offset="833">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thread.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/thread.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="2" selection-start="226" selection-end="226" vertical-scroll-proportion="0.09615385" vertical-offset="0" max-vertical-offset="1700">
+              <folding>
+                <element signature="e#2514#3867#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="worker.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deprecated/worker.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="23" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/js/LT-IE10.js" />
+        <option value="$PROJECT_DIR$/js/worker.js" />
+        <option value="$PROJECT_DIR$/js/vkthread.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1921" />
+    <option name="width" value="1918" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vkthread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vkthread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vkthread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vkthread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vkthread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\_github\vkthread\deprecated" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f53c4d4a-b9c2-4ea8-bd41-ff8ca33b1227" name="Default" comment="" />
+      <created>1406802137234</created>
+      <updated>1406802137234</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1921" y="0" width="1918" height="1040" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2360215" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Edited Thread Object, removed all dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited Thread Object, removed all dependencies" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="859">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="43" selection-start="583" selection-end="583" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="-1.36" vertical-offset="0" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deprecated/worker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="23" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/thread.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="2" selection-start="226" selection-end="226" vertical-scroll-proportion="0.09615385" vertical-offset="0" max-vertical-offset="1700">
+          <folding>
+            <element signature="e#2514#3867#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
