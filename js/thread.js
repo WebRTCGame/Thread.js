@@ -1,26 +1,9 @@
-/**
- * @original: Vadim Kiryukhin ( vkiryukhin @ gmail.com )
- * vkThread - javascript plugin to execute javascript function(s) in a thread.
- * https://github.com/vkiryukhin/vkthread
- * http://www.eslinstructor.net/vkthread/
- *
- * @version: 1.0 ( August 2014 )
- *
- * @author: Supersoaker ( https://github.com/supersoaker )
- *
- * Copyright (c) 2013 Vadim Kiryukhin
- *
- * Licensed under the MIT License.
- *
- * Function Thread.exec() can be used with no dependencies;
- */
-
 (function(global) {
   "use strict";
   // global = window
 
   /* this is a fragment of JSONfn plugin ( https://github.com/vkiryukhin/jsonfn ) */
-  var _JSONfn = {
+  const _JSONfn = {
     stringify: function(obj) {
       return JSON.stringify(obj, function(key, value) {
         if (value instanceof Function || typeof value == 'function')
@@ -32,7 +15,7 @@
     }
   };
 
-  var _buildObj = function(obj, fn, args, context, importFiles) {
+  const _buildObj = function(obj, fn, args, context, importFiles) {
     // the 4-th argument exist, but it is Array, which means
     // that this is a list of imported files.
     if (Array.isArray(context))
@@ -44,7 +27,7 @@
       obj.imprt = importFiles;
   };
 
-  var _execPolyfill = function(fn, args, cb) {
+  const _execPolyfill = function(fn, args, cb) {
     global.setTimeout((function(args) {
       return function() {
         cb(fn.apply(global, args));
@@ -53,11 +36,7 @@
   };
 
   function Thread() {
-    /*
-     * Set a path to the "worker.js" file, which should be located in the same
-     * folder with Thread.js (this one.) To find out the path ee throw "Error"
-     * object and then parse it ( path is a part of the object.)
-     */
+
     var err;
 
     try {
@@ -87,8 +66,7 @@
    *    @importFiles - Array of Strings;  list of files (with path), which @fn depends on.
    */
   Thread.prototype.exec = function(fn, args, cb, context, importFiles) {
-    console.log("exec started");
-    console.log(arguments);
+
     var worker = {},
       obj = {
         fn: fn,
@@ -96,11 +74,7 @@
         cntx: false,
         imprt: false
       };
-    console.log(JSON.stringify(worker));
-    console.log(JSON.stringify(obj));
-    console.log(this.path);
-   
-   
+
     var workerWrap =
       "(" +
       (function() {
@@ -125,15 +99,19 @@
           self.postMessage(t.fn.apply(n, t.args))
         }
       }).toString() + ")()";
-    console.log(workerWrap);
-    var fileBlob = new global.Blob([workerWrap], {
+    /*
+        var fileBlob = new global.Blob([workerWrap], {
+          "type": "text/javascript"
+        });
+
+        var UrlObj = global.URL.createObjectURL(new global.Blob([workerWrap], {
+          "type": "text/javascript"
+        }));
+    */
+    worker = new Worker(global.URL.createObjectURL(new global.Blob([workerWrap], {
       "type": "text/javascript"
-    });
+    })));
 
-    var UrlObj = global.URL.createObjectURL(fileBlob);
-
-    worker = new Worker(UrlObj);
-   
 
     _buildObj(obj, fn, args, context, importFiles);
 
@@ -147,7 +125,14 @@
       worker.terminate();
     };
 
-    worker.postMessage(_JSONfn.stringify(obj));
+
+
+    worker.postMessage(
+      _JSONfn.stringify(obj)
+    );
+
+
+
   };
 
   global.Thread = new Thread();
@@ -155,14 +140,15 @@
 })(self);
 
 
-/*
+
+
 Thread.exec(
-  function (x,y){return x+ y}, // function to execute in a thread
+  function(x, y) {
+    return x + y
+  }, // function to execute in a thread
   [2, 3], // arguments for the function
   function(data) { // callback function to process result
-    console.log(data);
     var foo = data;
     console.log(foo);
   }
 );
-*/
