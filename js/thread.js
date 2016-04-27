@@ -50,8 +50,21 @@
     else
       this.path = 'http' + err.split('http')[1].split('vkthread.js').slice(0, -1) + 'worker.js';
 
-    if (!global.Worker)
+    if (!global.Worker) {
       this.exec = _execPolyfill;
+    }
+
+    this._JSONfn = {
+      stringify: function(obj) {
+        return JSON.stringify(obj, function(key, value) {
+          if (value instanceof Function || typeof value == 'function')
+            return value.toString();
+          if (value instanceof RegExp)
+            return '_PxEgEr_' + value;
+          return value;
+        });
+      }
+    };
   }
 
   /**
@@ -67,13 +80,16 @@
    */
   Thread.prototype.exec = function(fn, args, cb, context, importFiles) {
 
-    var worker = {},
-      obj = {
-        fn: fn,
-        args: args,
-        cntx: false,
-        imprt: false
-      };
+    console.log(fn);
+
+    var worker = {};
+
+    var obj = {
+      fn: fn,
+      args: args,
+      cntx: false,
+      imprt: false
+    };
 
     var workerWrap =
       "(" +
@@ -128,7 +144,7 @@
 
 
     worker.postMessage(
-      _JSONfn.stringify(obj)
+      this._JSONfn.stringify(obj)
     );
 
 
@@ -140,15 +156,14 @@
 })(self);
 
 
+var fn = function(x, y)  {
+  return x + y
+};
+console.log(fn(1, 3));
 
-
-Thread.exec(
-  function(x, y) {
-    return x + y
-  }, // function to execute in a thread
+Thread.exec(fn, // function to execute in a thread
   [2, 3], // arguments for the function
-  function(data) { // callback function to process result
-    var foo = data;
-    console.log(foo);
+  x => {
+    console.log(x)
   }
 );
